@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #82A4A8;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.LoginController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#82a4a8" height="382.0" layoutX="79.0" layoutY="123.0" stroke="#fbfdf4" strokeType="INSIDE" width="303.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#82a4a8" height="382.0" layoutX="425.0" layoutY="123.0" stroke="#fbfdf4" strokeType="INSIDE" width="303.0" />
+      <TextField fx:id="usernameTextField" layoutX="118.0" layoutY="197.0" promptText="Enter your username">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordPasswordField" layoutX="119.0" layoutY="314.0" promptText="Enter your password">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="104.0" layoutY="154.0" text="Username" textFill="#fbfdf4">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="276.0" text="Password" textFill="#fbfdf4">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="186.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleLoginButton" style="-fx-background-color: #C84C4C; -fx-background-radius: 20;" text="Login" textFill="#fbfdf4">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0">
+               <color>
+                  <Color red="0.3294117748737335" green="0.3294117748737335" blue="0.3294117748737335" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="521.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleSignUpButton" style="-fx-background-color: #C84C4C; -fx-background-radius: 20;" text="Sign Up" textFill="#fbfdf4">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0">
+               <color>
+                  <Color red="0.3294117748737335" green="0.3294117748737335" blue="0.3294117748737335" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Label layoutX="458.0" layoutY="260.0" text="Don't have any account?" textFill="#fbfdf4">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="359.0" layoutY="525.0" mnemonicParsing="false" onAction="#handleBackButton" style="-fx-background-color: #545454; -fx-background-radius: 20;" text="Back" textFill="#fbfdf4">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0">
+               <color>
+                  <Color red="0.3294117748737335" green="0.3294117748737335" blue="0.3294117748737335" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Label layoutX="350.0" layoutY="52.0" text="Login" textFill="#f5f9fc">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

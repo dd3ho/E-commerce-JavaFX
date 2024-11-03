@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #82A4A8;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.HelpController">
+   <children>
+      <AnchorPane layoutX="158.0" layoutY="110.0" prefHeight="351.0" prefWidth="471.0" style="-fx-background-radius: 20; -fx-background-color: #c6d2d3;">
+         <children>
+            <Button layoutX="132.0" layoutY="101.0" mnemonicParsing="false" onAction="#handleUserHelpButton" prefHeight="51.0" prefWidth="224.0" style="-fx-background-color: #C84C4C; -fx-background-radius: 30;" text="User" textFill="#fbfdf4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="132.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleSellerHelpButton" prefHeight="51.0" prefWidth="224.0" style="-fx-background-color: #C84C4C; -fx-background-radius: 30;" text="Seller" textFill="#fbfdf4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="344.0" layoutY="509.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="51.0" prefWidth="98.0" style="-fx-background-color: #545454; -fx-background-radius: 20;" text="Back" textFill="#fbfdf4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="288.0" layoutY="25.0" prefHeight="60.0" prefWidth="224.0" style="-fx-background-color: #527b7c; -fx-background-radius: 30;">
+         <children>
+            <Label layoutX="75.0" layoutY="6.0" text="Help" textFill="#fbfdf4">
+               <font>
+                  <Font name="Cambria" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

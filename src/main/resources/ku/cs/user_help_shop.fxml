@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #82A4A8;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.UserHelpShopController">
+   <children>
+      <Button layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="51.0" prefWidth="98.0" style="-fx-background-color: #545454; -fx-background-radius: 20;" text="Back" textFill="#fbfdf4">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="14.0" layoutY="104.0" prefHeight="343.0" prefWidth="454.0" style="-fx-background-radius: 10; -fx-background-color: #c6d2d3;">
+         <children>
+            <ImageView fitHeight="313.0" fitWidth="418.0" layoutX="19.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Image/shop.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="94.0" layoutY="141.0" text="1" textFill="#c84c4c">
+               <font>
+                  <Font name="Cambria" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="188.0" layoutY="297.0" text="2" textFill="#c84c4c">
+               <font>
+                  <Font name="Cambria" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="421.0" layoutY="15.0" text="3" textFill="#c84c4c">
+               <font>
+                  <Font name="Cambria" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="172.0" text="4" textFill="#c84c4c">
+               <font>
+                  <Font name="Cambria" size="25.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.3294117748737335" green="0.3294117748737335" blue="0.3294117748737335" />
+               </color>
+            </DropShadow>
+         </effect>
+      </AnchorPane>
+      <AnchorPane layoutX="470.0" layoutY="386.0" prefHeight="200.0" prefWidth="316.0" style="-fx-background-radius: 20; -fx-background-color: #545454;">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.3294117748737335" green="0.3294117748737335" blue="0.3294117748737335" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Label layoutX="25.0" layoutY="12.0" text="หน้าแสดงรายการสินค้าทั้งหมด" textFill="#fbfdf4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="42.0" text="1.รายละเอียดสินค้า" textFill="#fbfdf4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="72.0" text="2.ปุ่มสำหรับการซื้อของ หากกดปุ่ม" textFill="#fbfdf4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="132.0" text="3.ปุ่มสำหรับการเรียงข้อมูลของสินค้า" textFill="#fbfdf4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="162.0" text="4.หน้าแสดงรายการสินค้า" textFill="#fbfdf4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="102.0" text="จะมีการตรวจสอบรายการสั่งซื้ออีกครั้ง" textFill="#fbfdf4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="223.0" layoutY="16.0" prefHeight="60.0" prefWidth="354.0" style="-fx-background-color: #527b7c; -fx-background-radius: 30;">
+         <children>
+            <Label layoutX="134.0" layoutY="6.0" text="Shop" textFill="#fbfdf4">
+               <font>
+                  <Font name="Cambria" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
